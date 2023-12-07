@@ -14,6 +14,10 @@ cc.Class({
         scrollView : cc.ScrollView
     },
     onLoad () {
+        this.editboxChat.node.on('editing-return', this.onEditingReturn, this);
+        this.editboxChat.node.on('editing-did-ended', this.onEditingDidEnded, this);
+
+
         this.socket = io('http://localhost:8080');
         var jsonString = cc.sys.localStorage.getItem("gameData");
         var loadData = JSON.parse(jsonString);
@@ -33,6 +37,16 @@ cc.Class({
             this.onLeftMessage(this.chatData.nameUser,this.chatData.message,this.chatData.socketID);
         })
         
+    },
+    onEditingDidEnded() {
+        this.editboxChat.focus();
+    },
+
+
+    onEditingReturn() {
+        this.onRightMessage();
+        this.editboxChat.string = "";
+        this.editboxChat.focus();
     },
 
     onRightMessage(){

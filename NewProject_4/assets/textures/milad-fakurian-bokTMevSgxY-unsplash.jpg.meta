@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "63634362-88e5-47f2-89f5-f0898ed952e7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "milad-fakurian-bokTMevSgxY-unsplash": {
+      "ver": "1.0.4",
+      "uuid": "34c958f6-c68f-452c-aef3-b23e961a4152",
+      "rawTextureUuid": "63634362-88e5-47f2-89f5-f0898ed952e7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2500,
+      "height": 5413,
+      "rawWidth": 2500,
+      "rawHeight": 5413,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
