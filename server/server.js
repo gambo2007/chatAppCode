@@ -8,15 +8,22 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 io.on('connection', (socket) => {
-    console.log('A user connected');
+    const socketId = socket.id;
 
-    socket.on('setUsername', (username) => {
-        console.log(`User ${username} connected`);
+    socket.on('gameData', (userData) => {
+        console.log(JSON.stringify(userData) +`${socketId} connected`);
     });
 
-    socket.on('chatMessage', (data) => {
-        console.log(`Received message from ${data.username}: ${data.message}`);
-        io.emit('chatMessage', { username: data.username, message: data.message });
+    socket.on('messageData', (data) => {
+        // Xử lý dữ liệu nhận được từ sự kiện 'messageData'
+        console.log(`Received message data from ${socket.id}:`, data.message);
+
+        // Broadcast tin nhắn đến tất cả các client khác
+        io.emit('messageData', {
+            username: data.nameUser,
+            message: data.message,
+            socketID: data.socketID,
+        });
     });
 
     socket.on('disconnect', () => {
