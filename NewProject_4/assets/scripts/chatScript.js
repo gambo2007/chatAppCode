@@ -5,7 +5,7 @@ cc.Class({
 
     onLoad() {
         // Kết nối với máy chủ Socket.IO
-        this.socket = io('http://localhost:8080');
+        this.socket = io('https://tai-q7th.onrender.com');
     
     
         // Bắt sự kiện khi kết nối thành công

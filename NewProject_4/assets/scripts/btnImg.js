@@ -24,7 +24,10 @@ cc.Class({
     },
     onClickChangeImg(){
         this.avatar.spriteFrame = this.node.getComponent(cc.Sprite).spriteFrame;
+        cc.log(this.avatar.spriteFrame)
+        cc.log('click')
     }
 
     // update (dt) {},
+    
 });

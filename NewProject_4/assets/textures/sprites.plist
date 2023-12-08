@@ -4,144 +4,116 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>avatar_.png</key>
+			<key>boy_4140070.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{141,690},{139,138}}</string>
+				<string>{{513,0},{490,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{139,138}}</string>
+				<string>{{11,0},{490,512}}</string>
 				<key>sourceSize</key>
-				<string>{139,138}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_01.png</key>
+			<key>gamer_4333682.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,548},{141,141}}</string>
+				<string>{{1004,0},{486,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{141,141}}</string>
+				<string>{{13,0},{486,512}}</string>
 				<key>sourceSize</key>
-				<string>{141,141}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_02.png</key>
+			<key>kitty_5101573.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,136},{142,137}}</string>
+				<string>{{0,0},{512,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{142,137}}</string>
+				<string>{{0,0},{512,512}}</string>
 				<key>sourceSize</key>
-				<string>{142,137}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_03.png</key>
+			<key>man_6725128.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{142,411},{132,142}}</string>
+				<string>{{1004,513},{416,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{132,142}}</string>
+				<string>{{48,0},{416,512}}</string>
 				<key>sourceSize</key>
-				<string>{132,142}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_05.png</key>
+			<key>rock-star_1776700.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{141,829},{139,138}}</string>
+				<string>{{513,513},{490,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{139,138}}</string>
+				<string>{{12,0},{490,512}}</string>
 				<key>sourceSize</key>
-				<string>{139,138}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_06.png</key>
+			<key>superhero_8132860.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,690},{140,134}}</string>
+				<string>{{0,1026},{512,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{140,134}}</string>
+				<string>{{0,0},{512,512}}</string>
 				<key>sourceSize</key>
-				<string>{140,134}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_07.png</key>
+			<key>woman_9226697.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,411},{141,136}}</string>
+				<string>{{513,1026},{490,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{141,136}}</string>
+				<string>{{11,0},{490,512}}</string>
 				<key>sourceSize</key>
-				<string>{141,136}</string>
+				<string>{512,512}</string>
 			</dict>
 
-			<key>avatar_08.png</key>
+			<key>woman_9307761.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,825},{140,137}}</string>
+				<string>{{0,513},{512,512}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<false/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{140,137}}</string>
+				<string>{{0,0},{512,512}}</string>
 				<key>sourceSize</key>
-				<string>{140,137}</string>
-			</dict>
-
-			<key>avatar_09.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,274},{142,136}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{142,136}}</string>
-				<key>sourceSize</key>
-				<string>{142,136}</string>
-			</dict>
-
-			<key>avatar_10.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,0},{143,135}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{143,135}}</string>
-				<key>sourceSize</key>
-				<string>{143,135}</string>
+				<string>{512,512}</string>
 			</dict>
 
 		</dict>
@@ -151,7 +123,7 @@
 			<key>format</key>
 			<integer>2</integer>
 			<key>size</key>
-			<string>{512,1024}</string>
+			<string>{2048,2048}</string>
 			<key>textureFileName</key>
 			<string>sprites.png</string>
 			</dict>
